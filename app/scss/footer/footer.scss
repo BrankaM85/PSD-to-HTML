@@ -1,0 +1,102 @@
+footer .box{border-top: 0;}
+.footer-p{
+	text-align: center; 
+	padding: 30px 0;
+}
+footer p{
+	font-size: 15px; 
+	margin-top: 30px;
+}
+
+.footer-logo{
+	width: 300px; 
+	padding: 0 10px; 
+	display: inline-block;
+}
+.f-logo{
+	max-width: 260px; 
+	width: 100%; 
+	text-align: left; 
+	img{display: block;}
+}
+.f-logo p, .banner-cat p{
+	 -webkit-hyphens: auto;
+	  -moz-hyphens: auto;
+	  -ms-hyphens: auto;
+	  hyphens: auto;
+}
+.footer-subscribe{
+	width: 850px; 
+	display: inline-block;
+}
+.footer-info{
+	border-bottom: 1px solid $lightGray;
+	overflow: hidden;
+	margin-bottom:40px; 
+	text-transform: uppercase;
+	h2{
+		font-size:20px !important; 
+		font-family: $gothamBold !important; 
+		margin-top: 20px
+	}
+}
+.footer-box{
+	width: 220px;
+	display: inline-block;
+	h3{
+		border-bottom: 0;
+		text-transform: uppercase;
+	}
+	&:last-child{
+		width: 350px !important;
+
+		.footer-links li:before{
+			content: '';
+		}
+	}
+}
+.footer-links{
+	list-style: none;
+	li{	
+		padding-bottom: 10px; 
+		font-size: 15px;
+		width: 100%; 
+		font-family: $gothamBook !important;
+	}
+	li a{
+		text-decoration: none; 
+		color: $active;
+	}
+	li:before {
+		font-family: FontAwesome;
+		content:  "\f0da";
+		padding-right: 10px;
+	}
+}
+.inner{
+	display: inline-block;
+	width: 250px;
+	vertical-align: top;
+}
+.block{
+	width: 49%;
+	display: inline-block;
+	font-size: 20px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.footer-form{
+	width: 100%;
+	display: flex;
+	input[type="email"]{
+		background: $lightGray;
+		padding:22px 0;
+		padding-left: 15px;
+		width:300px;
+	}
+	button{
+		width: 100px;
+		text-transform: none;
+	}
+}
+

@@ -1,0 +1,41 @@
+
+.new-arr{
+	margin-right: 20px;
+	&:last-child{
+		margin-right: 0;
+	}
+}
+.banner-cat p{
+	font-size: 15px; 
+	padding:15px 0; 
+	font-family:$gothamMedium !important; 
+	width: 355px;
+}
+.banner-cat h3{
+	border-bottom: 0; 
+	text-transform: uppercase;
+}
+.box{
+	padding: 50px 0;
+	border-bottom: 1px solid $lightGray;
+	border-top: 1px solid $lightGray;
+	overflow: auto;
+}
+.blog-btn{
+	position: absolute;
+	top: 45.55%;
+	left: 0%;
+	width: 66px;
+	height: 66px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor:default;
+}
+.btn-date{
+	font-family: $gothamBook !important; 
+	font-size: 30px; 
+	&:after{
+		font-size:15px;
+		text-transform: uppercase;
+	}
+}

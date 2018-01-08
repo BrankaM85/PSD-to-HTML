@@ -1,0 +1,30 @@
+.sub-meni{
+	list-style: none;
+	li{
+		display: inline-block;
+		font-size: 15px;
+		font-weight: bold;
+		a{
+			display: inline-block;
+			padding:15px 0 15px 15px;
+			text-decoration: none;
+			color: $active;
+		}
+		&:first-child{
+			span{
+				padding-left:15px;
+				padding-right: 0;
+			}
+		}
+		&:after{
+				padding-left: 15px;
+				content:":";
+			}
+		&:last-child{
+			&:after{
+				content:"";
+			}
+		}
+	}
+}
+.sub-meni li a:hover, .footer-links li a:hover{color: $btnBkg;}

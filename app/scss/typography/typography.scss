@@ -1,0 +1,18 @@
+@import "font-awesome";
+//@import "header/header.scss";
+@import url(../fonts/gotham-book.otf);
+@import url(../fonts/gotham-bold.ttf);
+@import url(../fonts/gotham-medium.otf);
+
+
+$gothamBook: 'gotham-book', sans-serif;
+$gothamMedium: 'gotham-medium', sans-serif;
+$gothamBold: 'gotham-bold', sans-serif;
+$fontAwesome: 'font-awesome';
+
+$wht:#fff;
+$active:#444;
+$lightGray:#e1e1e1;
+$btnBkg: #db3838;
+$socMedia: #3385ff;
+$inactive: #808080;
